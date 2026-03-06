@@ -2,29 +2,43 @@
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<title>Somewhere Under The Same Sky</title>
+<title>Under The Same Sky</title>
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
+<audio autoplay loop>
+<source src="music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="stars"></div>
+
 <div class="container">
 
-<h1>Somewhere Under The Same Sky</h1>
+<h1>Under The Same Sky</h1>
 
 <p>
-Even when silence stretches across the miles,
-some hearts still find their way to each other.
+Some stories begin quietly,
+long before the world even notices.
 </p>
 
 <p>
-Not every story begins with a meeting,
-sometimes it begins with a feeling.
+Two souls somewhere under the same sky,
+connected by something words can't explain.
 </p>
 
-<a class="btn" href="letter.html">Open My Heart</a>
+<a class="btn" href="letter.html">A Small Letter</a>
+
+<p class="secret" onclick="secret()">✨</p>
 
 </div>
+
+<script>
+function secret(){
+alert("Some promises don't need to be spoken. They just wait for the right moment.");
+}
+</script>
 
 </body>
 </html>
